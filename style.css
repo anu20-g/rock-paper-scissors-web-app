@@ -1,0 +1,5 @@
+body { background: #e0f2fe; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: sans-serif; }
+.game-wrapper { background: #fff; padding: 2rem; border-radius: 10px; width: 340px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+.score-row { display: flex; justify-content: space-around; font-size: 1.1rem; margin: 1.5rem 0; font-weight: bold; }
+.btn-group button { padding: 0.6rem 1rem; margin: 0 0.3rem; background: #2563eb; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; }
+.res-text { margin-top: 1.5rem; font-size: 1rem; color: #334155; }

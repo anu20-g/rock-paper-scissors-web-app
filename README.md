@@ -1,0 +1,1 @@
+# Rock Paper Scissors Game - Team 1\n\nPlay against the computer and display the winner and running score.\n\n## Preview\nOpen `index.html` in any modern web browser.\n

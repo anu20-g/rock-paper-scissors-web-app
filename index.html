@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors Arena</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-wrapper">
+        <h2>Rock Paper Scissors</h2>
+        <div class="score-row">
+            <span>Player: <b id="pScore">0</b></span>
+            <span>Computer: <b id="cScore">0</b></span>
+        </div>
+        <div class="btn-group">
+            <button onclick="playRound('Rock')">Rock</button>
+            <button onclick="playRound('Paper')">Paper</button>
+            <button onclick="playRound('Scissors')">Scissors</button>
+        </div>
+        <div id="resultOutput" class="res-text">Choose your move to start!</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
